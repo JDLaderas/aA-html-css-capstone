@@ -1,0 +1,32 @@
+/*  ---------- IMPORT CSS ---------- */
+
+@import url(./header-footer.css);
+
+/* ---------- MAIN SECTION ---------- */
+
+.main {
+	/* display: flex; */
+	text-align: center;
+	padding: 100px 0 0px;
+}
+
+main > h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+main > p {
+	width: 500px;
+	margin: 10px auto;
+}
+
+main > div {
+	width: 500px;
+	margin: 50px auto;
+}
+
+footer {
+	position: fixed;
+
+	bottom: 0;
+}
